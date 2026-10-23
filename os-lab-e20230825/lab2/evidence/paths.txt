@@ -1,0 +1,3 @@
+Error: cat: 'reports/cash flow.txt': No such file or directory
+Fix: ../../reports/cash flow.txt
+mv "$OSLAB_WORKSPACE/lab2/incoming/sales north.txt" "$OSLAB_WORKSPACE/lab2/reports/"
