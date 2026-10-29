@@ -1,0 +1,4 @@
+/home/gic-him-menghou/oslab-work/lab1/task2_files
+lemon.txt
+lemon_renamed.txt
+ocean.txt
