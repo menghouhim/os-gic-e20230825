@@ -1,0 +1,6 @@
+grep "^clear," data/events.csv > evidence/selected.txt
+grep "^clear," data/events.csv | cut -d, -f2 > evidence/fields.txt
+wc -l < evidence/selected.txt > evidence/normal.txt
+grep -v "^clear," data/events.csv > data/no-match.csv
+grep "^clear," data/events.csv > data/changed.csv
+cat data/missing.csv > evidence/stdout.txt 2> evidence/stderr.txt
