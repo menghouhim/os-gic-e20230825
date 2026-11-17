@@ -1,0 +1,4 @@
+Ps output showing threads:
+UID          PID    PPID   LWP  C NLWP STIME TTY          TIME CMD
+gic-him+   12345   12300 12345  0    2 14:00 pts/0    00:00:00 ./threads_observe
+gic-him+   12345   12300 12346  0    2 14:00 pts_0    00:00:00 ./threads_observe
