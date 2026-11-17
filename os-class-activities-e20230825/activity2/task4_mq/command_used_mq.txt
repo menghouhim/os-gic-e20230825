@@ -1,0 +1,20 @@
+ 1123  cd task3_shm
+ 1124  nano shm-producer.c
+ 1125  nano shm-consumer.c
+ 1126  gcc -o shm-producer shm-producer.c -lrt
+ 1127  gcc -o shm-consumer shm-consumer.c -lrt
+ 1128  ./shm-producer
+ 1129  ./shm-consumer > result-shm-ipc.txt
+ 1130  cat result-shm-ipc.txt
+ 1131  history | tail -n 20 > command_used_shm.txt
+ 1132  cd ..
+ 1133  cd task4_mq
+ 1134  nano common.h
+ 1135  nano sender.c
+ 1136  nano receiver.c
+ 1137  gcc -o sender sender.c -lrt
+ 1138  gcc -o receiver receiver.c -lrt
+ 1139  ./sender
+ 1140  ./receiver > result-mq-ipc.txt
+ 1141  cat result-mq-ipc.txt
+ 1142  history | tail -n 20 > command_used_mq.txt

@@ -1,0 +1,8 @@
+total 28
+drwxrwxr-x 2 gic-him-menghou gic-him-menghou  4096 Nov 17 13:17 .
+drwxrwxr-x 8 gic-him-menghou gic-him-menghou  4096 Nov 17 13:17 ..
+-rwxrwxr-x 1 gic-him-menghou gic-him-menghou 16352 Nov 17 13:17 forkchild
+-rw-rw-r-- 1 gic-him-menghou gic-him-menghou   647 Nov 17 13:17 forkchild.c
+-rw-rw-r-- 1 gic-him-menghou gic-him-menghou     0 Nov 17 13:17 result_forkchild.txt
+Parent process (PID: 2502585) — creating child...
+Parent: child exited with status 0

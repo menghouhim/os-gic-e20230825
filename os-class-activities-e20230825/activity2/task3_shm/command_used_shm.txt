@@ -1,0 +1,20 @@
+ 1112  git push
+ 1113  cd ~/os-gic-e20230825
+ 1114  mkdir -p os-class-activities-e20230825/activity2/{task1,task3_shm,task4_mq,screenshots}
+ 1115  cd os-class-activities-e20230825/activity2
+ 1116  cd task1
+ 1117  nano forkchild.c
+ 1118  gcc -o forkchild forkchild.c
+ 1119  ./forkchild > result_forkchild.txt 2>&1
+ 1120  cat result_forkchild.txt
+ 1121  history | tail -n 20 > command_used_forkchild.txt
+ 1122  cd ..
+ 1123  cd task3_shm
+ 1124  nano shm-producer.c
+ 1125  nano shm-consumer.c
+ 1126  gcc -o shm-producer shm-producer.c -lrt
+ 1127  gcc -o shm-consumer shm-consumer.c -lrt
+ 1128  ./shm-producer
+ 1129  ./shm-consumer > result-shm-ipc.txt
+ 1130  cat result-shm-ipc.txt
+ 1131  history | tail -n 20 > command_used_shm.txt

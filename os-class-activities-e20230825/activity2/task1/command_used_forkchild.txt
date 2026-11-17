@@ -1,0 +1,20 @@
+ 1102  touch os-lab-e20230825/lab1/images/Task6.png
+ 1103  git add os-lab-e20230825/lab1
+ 1104  git commit -m "Add images folder to Lab 1"
+ 1105  git push
+ 1106  cd ~/os-gic-e20230825/os-lab-e20230825/lab1
+ 1107  touch task2_files/*
+ 1108  touch images/*
+ 1109  cd ~/os-gic-e20230825
+ 1110  git add os-lab-e20230825/lab1
+ 1111  git commit -m "Update timestamps for late files"
+ 1112  git push
+ 1113  cd ~/os-gic-e20230825
+ 1114  mkdir -p os-class-activities-e20230825/activity2/{task1,task3_shm,task4_mq,screenshots}
+ 1115  cd os-class-activities-e20230825/activity2
+ 1116  cd task1
+ 1117  nano forkchild.c
+ 1118  gcc -o forkchild forkchild.c
+ 1119  ./forkchild > result_forkchild.txt 2>&1
+ 1120  cat result_forkchild.txt
+ 1121  history | tail -n 20 > command_used_forkchild.txt
