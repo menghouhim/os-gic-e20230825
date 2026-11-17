@@ -1,0 +1,9 @@
+
+=== NEW FILE USING THE OLD NAME ===
+-rw-rw-r-- 2 gic-him-menghou gic-him-menghou 12 Nov 17 09:52 rocket-hard.txt
+-rw-rw-r-- 2 gic-him-menghou gic-him-menghou 12 Nov 17 09:52 rocket-old.txt
+lrwxrwxrwx 1 gic-him-menghou gic-him-menghou 10 Nov 17 09:56 rocket-soft.txt -> rocket.txt
+-rw-rw-r-- 1 gic-him-menghou gic-him-menghou 12 Nov 17 09:56 rocket.txt
+rocket.txt: version 909
+hard: version 831
+soft: version 909

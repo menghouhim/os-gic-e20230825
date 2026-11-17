@@ -1,0 +1,12 @@
+.:
+total 8
+19268239 drwxrwxr-x 2 gic-him-menghou gic-him-menghou 4096 Nov 17 10:03 links
+19268240 -rw-rw-r-- 2 gic-him-menghou gic-him-menghou   23 Nov 17 10:03 maple-backup.txt
+
+links:
+total 4
+19268241 lrwxrwxrwx 1 gic-him-menghou gic-him-menghou 19 Nov 17 10:03 first.txt -> ../maple-backup.txt
+19268240 -rw-rw-r-- 2 gic-him-menghou gic-him-menghou 23 Nov 17 10:03 hard.txt
+19268242 lrwxrwxrwx 1 gic-him-menghou gic-him-menghou  9 Nov 17 10:03 second.txt -> first.txt
+checkpoint tiger maple
+checkpoint tiger maple
