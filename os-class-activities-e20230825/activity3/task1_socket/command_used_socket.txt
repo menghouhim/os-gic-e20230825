@@ -1,0 +1,20 @@
+ 1139  ./sender
+ 1140  ./receiver > result-mq-ipc.txt
+ 1141  cat result-mq-ipc.txt
+ 1142  history | tail -n 20 > command_used_mq.txt
+ 1143  cd ~/os-gic-e20230825/os-class-activities-e20230825/activity2
+ 1144  nano README.md
+ 1145  cd ~/os-gic-e20230825
+ 1146  git pull
+ 1147  git add os-class-activities-e20230825/activity2
+ 1148  git commit -m "Complete Class Activity 2"
+ 1149  git push
+ 1150  cd ~/os-gic-e20230825
+ 1151  mkdir -p os-class-activities-e20230825/activity3/{task1_socket,task2_threads,task3_java,screenshots}
+ 1152  cd os-class-activities-e20230825/activity3
+ 1153  cd task1_socket
+ 1154  nano server.c
+ 1155  nano client.c
+ 1156  gcc -o server server.c
+ 1157  gcc -o client client.c
+ 1158  history | tail -n 20 > command_used_socket.txt
