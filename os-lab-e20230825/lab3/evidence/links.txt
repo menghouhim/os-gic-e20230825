@@ -1,0 +1,58 @@
+=== BEFORE RENAME ===
+=== BEFORE REPAIR ===
+-rw-rw-r-- 2 gic-him-menghou gic-him-menghou 12 Nov 17 09:52 rocket-hard.txt
+lrwxrwxrwx 1 gic-him-menghou gic-him-menghou 10 Nov 17 09:56 rocket-soft.txt -> rocket.txt
+-rw-rw-r-- 2 gic-him-menghou gic-him-menghou 12 Nov 17 09:52 rocket.txt
+hard: version 831
+soft: version 831
+stored target: rocket.txt
+
+=== AFTER RENAME, BEFORE REPAIR ===
+-rw-rw-r-- 2 gic-him-menghou gic-him-menghou 12 Nov 17 09:52 rocket-hard.txt
+-rw-rw-r-- 2 gic-him-menghou gic-him-menghou 12 Nov 17 09:52 rocket-old.txt
+lrwxrwxrwx 1 gic-him-menghou gic-him-menghou 10 Nov 17 09:56 rocket-soft.txt -> rocket.txt
+hard: version 831
+Decision: I stored a relative target because if the whole folder is moved, an absolute path would break.
+=== BEFORE REPAIR ===
+-rw-rw-r-- 2 gic-him-menghou gic-him-menghou 12 Nov 17 09:52 rocket-hard.txt
+lrwxrwxrwx 1 gic-him-menghou gic-him-menghou 10 Nov 17 09:56 rocket-soft.txt -> rocket.txt
+-rw-rw-r-- 2 gic-him-menghou gic-him-menghou 12 Nov 17 09:52 rocket.txt
+hard: version 831
+soft: version 831
+stored target: rocket.txt
+
+=== AFTER RENAME, BEFORE REPAIR ===
+-rw-rw-r-- 2 gic-him-menghou gic-him-menghou 12 Nov 17 09:52 rocket-hard.txt
+-rw-rw-r-- 2 gic-him-menghou gic-him-menghou 12 Nov 17 09:52 rocket-old.txt
+lrwxrwxrwx 1 gic-him-menghou gic-him-menghou 10 Nov 17 09:56 rocket-soft.txt -> rocket.txt
+hard: version 831
+soft: cat: rocket-soft.txt: No such file or directory
+stored target: rocket.txt
+
+=== NEW FILE USING THE OLD NAME ===
+-rw-rw-r-- 1 gic-him-menghou gic-him-menghou 12 Nov 17 09:52 rocket.txt
+-rw-rw-r-- 2 gic-him-menghou gic-him-menghou 12 Nov 17 09:52 rocket-hard.txt
+-rw-rw-r-- 2 gic-him-menghou gic-him-menghou 12 Nov 17 09:52 rocket-old.txt
+lrwxrwxrwx 1 gic-him-menghou gic-him-menghou 10 Nov 17 09:56 rocket-soft.txt -> rocket.txt
+rocket.txt: version 909
+hard: version 831
+soft: version 909
+
+=== AFTER REPAIR ===
+-rw-rw-r-- 2 gic-him-menghou gic-him-menghou 12 Nov 17 09:52 rocket-hard.txt
+-rw-rw-r-- 2 gic-him-menghou gic-him-menghou 12 Nov 17 09:52 rocket-old.txt
+lrwxrwxrwx 1 gic-him-menghou gic-him-menghou 14 Nov 17 09:57 rocket-soft.txt -> rocket-old.txt
+stored target: rocket-old.txt
+hard: version 831
+soft: version 831
+
+Decision: I stored a relative target because if the whole folder is moved, an absolute path would break.
+soft: cat: rocket-soft.txt: No such file or directory
+
+=== AFTER REPAIR ===
+-rw-rw-r-- 2 gic-him-menghou gic-him-menghou 12 Nov 17 09:52 rocket-hard.txt
+-rw-rw-r-- 2 gic-him-menghou gic-him-menghou 12 Nov 17 09:52 rocket-old.txt
+lrwxrwxrwx 1 gic-him-menghou gic-him-menghou 14 Nov 17 09:57 rocket-soft.txt -> rocket-old.txt
+stored target: rocket-old.txt
+hard: version 831
+soft: version 831
